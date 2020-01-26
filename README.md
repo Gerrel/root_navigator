@@ -2,7 +2,6 @@
 
 A flutter package that creates a sub-navigator with routes
 
-[![MIT License][license-badge]][LICENSE]
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
 
