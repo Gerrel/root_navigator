@@ -1,0 +1,16 @@
+name: root_navigator
+description: A flutter package that creates a sub-navigator with routes
+version: 1.0.0
+author: Gerrel
+homepage: https://github.com/Gerrel/root_navigator
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
