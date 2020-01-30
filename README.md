@@ -41,6 +41,9 @@ return MaterialApp(
                   ),
 ));
 ```
+
+A working example project is available in the repository.
+
 ## License
 
 This project is licensed under the MIT License - see the 
