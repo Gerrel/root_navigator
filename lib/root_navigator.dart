@@ -22,7 +22,7 @@ class _RootNavigatorState extends State<RootNavigator> {
           settings: settings,
           builder: (BuildContext context) {
             switch (settings.name) {
-              case '/':
+              case Navigator.defaultRouteName:
                 return widget.root;
               default:
                 return widget.routes[settings.name](context);

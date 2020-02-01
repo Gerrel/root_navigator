@@ -1,3 +1,6 @@
+## [1.0.3] - 1 feb 2020
+* using default route constant from navigator
+
 ## [1.0.2] - 30 jan 2020
 * some analysis improvements and example project added
 

@@ -1,6 +1,6 @@
 name: root_navigator
 description: A flutter package that creates a sub-navigator with routes (independent view stack)
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/Gerrel/root_navigator
 
 environment:
