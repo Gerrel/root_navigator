@@ -25,7 +25,7 @@ class _AppState extends State<App> {
             index: activeTab,
             children: [
               RootNavigator(root: ExampleScreen(id: 1), routes: Screens.routes),
-              RootNavigator(root: ExampleScreen(id: 2), routes: Screens.routes),
+              RootNavigator(rootName: 'two', routes: Screens.routes),
               RootNavigator(root: ExampleScreen(id: 3), routes: Screens.routes),
             ],
           ),

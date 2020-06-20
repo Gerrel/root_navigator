@@ -1,3 +1,6 @@
+## [1.0.4] - 20 jun 2020
+* init with route name
+
 ## [1.0.3] - 1 feb 2020
 * using default route constant from navigator
 
