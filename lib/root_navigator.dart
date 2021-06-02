@@ -3,14 +3,14 @@ library root_navigator;
 import 'package:flutter/material.dart';
 
 class RootNavigator extends StatefulWidget {
-  final Widget rootWidget;
-  final String rootName;
-  final Map<String, Object> rootNameArguments;
+  final Widget? rootWidget;
+  final String? rootName;
+  final Map<String, Object>? rootNameArguments;
   final Map<String, Widget Function(BuildContext)> routes;
 
   const RootNavigator({
-    Key key,
-    @required this.routes,
+    Key? key,
+    required this.routes,
     this.rootWidget,
     this.rootName,
     this.rootNameArguments,
@@ -43,13 +43,12 @@ class _RootNavigatorState extends State<RootNavigator> {
             switch (settings.name) {
               case Navigator.defaultRouteName:
                 if (widget.rootWidget != null) {
-                  return widget.rootWidget;
+                  return widget.rootWidget!;
                 } else {
-                  return widget.routes[widget.rootName](context);
+                  return widget.routes[widget.rootName]!(context);
                 }
-                break;
               default:
-                return widget.routes[settings.name](context);
+                return widget.routes[settings.name]!(context);
             }
           },
         );

@@ -20,7 +20,7 @@ class _AppState extends State<App> {
         appBar: AppBar(
           title: Text('My Flutter App'),
         ),
-        resizeToAvoidBottomPadding: true,
+        resizeToAvoidBottomInset: true,
         body: IndexedStack(
           index: activeTab,
           children: [
