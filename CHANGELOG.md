@@ -1,3 +1,6 @@
+## [1.1.0] - 2 jun 2021
+* null-safety
+
 ## [1.0.5] - 20 jun 2020
 * pass route name arguments
 
@@ -15,5 +18,4 @@
 * code formatting
 
 ## [1.0.0] - 26 jan 2020
-
 * initial release.
